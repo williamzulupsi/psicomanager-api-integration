@@ -9,8 +9,7 @@ const app = express();
 // Middleware
 app.use(cors());
 app.use(express.json());
-
-// Variáveis de ambiente
+Page_DownPage_DownPage_Down/ Variáveis de ambiente
 const CLIENT_ID = process.env.CLIENT_ID;
 const SECRET_TOKEN = process.env.SECRET_TOKEN;
 const PORT = process.env.PORT || 3000;
