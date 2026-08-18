@@ -1,0 +1,19 @@
+{
+    "name": "psicomanager-api-integration",
+    "version": "1.0.0",
+    "description": "API integration server for Psicomanager",
+    "main": "servidor-base-nodejs.js",
+    "scripts": {
+          "start": "node servidor-base-nodejs.js",
+          "dev": "node servidor-base-nodejs.js"
+    },
+    "keywords": ["psicomanager", "api", "nodejs"],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+          "express": "^4.18.2",
+          "axios": "^1.6.0",
+          "dotenv": "^16.3.1",
+          "cors": "^2.8.5"
+    }
+}
